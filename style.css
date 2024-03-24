@@ -44,9 +44,8 @@
     max-height: 80px; /* 4 lines at 20px per line */
     white-space: normal;
     overflow: hidden;
-
-
 }
+
 .card-text{
   max-height: 100px; /* 4 lines at 20px per line */
   overflow: hidden;
