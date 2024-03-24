@@ -22,6 +22,7 @@ function setInitialDarkMode() {
     darkModeToggle.checked = true;
   }
 }
+
 // Call the function to set initial dark mode state
 //setInitialDarkMode();
 

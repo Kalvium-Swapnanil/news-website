@@ -13,7 +13,7 @@ This is Static news website which fetch live and trending news from API. I have 
 
 </div>
 <h3 align="center">
-          Live Project : <a target="_blank" href="https://news-website-web.vercel.app/">https://news-website-web.vercel.app</a>
+          Live Project : <a target="_blank" href="https://news-website-swapnanil.netlify.app/">https://news-website-swapnanil.netlify.app/</a>
 </h3>
 <br />
 
@@ -21,7 +21,7 @@ This is Static news website which fetch live and trending news from API. I have 
 
 - **Frontend:** HTML,CSS,JavaScript
 - **Version Control:** Git and GitHub
-- **Hosting:** Github
+- **Hosting:** Netlify
 - **Code Editor and tools**: VS Code
 
  <br />
