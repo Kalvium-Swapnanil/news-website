@@ -33,7 +33,6 @@
 }
 
 .card-title{
-    color: rgb(248, 65, 14);
     letter-spacing: 1px;
     font-size: 16px;
     font-weight: bold;
@@ -41,7 +40,7 @@
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;  
+    -webkit-box-orient: vertical;
     max-height: 80px; /* 4 lines at 20px per line */
     white-space: normal;
     overflow: hidden;
@@ -49,7 +48,7 @@
 
 }
 .card-text{
-    max-height: 100px; /* 4 lines at 20px per line */
+  max-height: 100px; /* 4 lines at 20px per line */
   overflow: hidden;
   text-overflow: ellipsis;
   letter-spacing: 1px;
@@ -58,7 +57,7 @@
   font-size: 13px;
   display: -webkit-box;
   -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;  
+  -webkit-box-orient: vertical;
 }
 
 
@@ -94,15 +93,16 @@ align-items: center;
     overflow: hidden;
     box-sizing: border-box;
 }
-.thumnail{
+.thumbnail{
     width: 100%;
     height: 100%;
+    background-repeat: repeat-x;
 }
 
 .imageWrapper{
     width: 100%;
-    height: 180px;
-    object-fit: cover;
+    height: 200px;
+    object-fit:cover
 }
 
 #img {
@@ -143,7 +143,7 @@ footer {
 /* Media Quries */
 
 @media only screen and (min-width:844px) and (max-width:1142px){
-   
+
     .newsCard {
         display: flex;
         flex-direction: column;
@@ -155,7 +155,6 @@ footer {
         box-sizing: border-box;
     }
     .card-title{
-        color: rgb(248, 65, 14);
         letter-spacing: 1px;
         font-size: 14px;
         font-weight: bold;
@@ -163,7 +162,7 @@ footer {
         text-overflow: ellipsis;
         display: -webkit-box;
         -webkit-line-clamp: 2;
-        -webkit-box-orient: vertical;  
+        -webkit-box-orient: vertical;
         max-height: 80px; /* 4 lines at 20px per line */
         white-space: normal;
         overflow: hidden;
@@ -187,7 +186,7 @@ footer {
       font-size: 11px;
       display: -webkit-box;
       -webkit-line-clamp: 4;
-      -webkit-box-orient: vertical;  
+      -webkit-box-orient: vertical;
     }
     .imageWrapper{
         width: 100%;
@@ -229,15 +228,15 @@ label {
     background: #242424;
   }
   input:checked + label:after {
-    left: 49px; 
-    transform: translateX(-100%); 
+    left: 49px;
+    transform: translateX(-100%);
     background: linear-gradient(180deg, #777, #3a3a3a);
 }
   label, label:after {
     transition: 0.3s
   }
-  label:active:after{ 
-     width: 30px;
+  label:active:after{
+    width: 30px;
   }
   label svg {
     position: absolute;
@@ -259,7 +258,7 @@ label {
     opacity: 0.2;
   }
   input:checked + label svg.moon {
-     opacity: 1;
+    opacity: 1;
   }
   .form-switch{
     padding-left: 0;
@@ -286,7 +285,6 @@ label {
         object-fit: cover;
     }
     .card-title{
-        color: rgb(248, 65, 14);
         letter-spacing: 1px;
         font-size: 13px;
         font-weight: bold;
@@ -294,7 +292,7 @@ label {
         text-overflow: ellipsis;
         display: -webkit-box;
         -webkit-line-clamp: 2;
-        -webkit-box-orient: vertical;  
+        -webkit-box-orient: vertical;
         max-height: 80px; /* 4 lines at 20px per line */
         white-space: normal;
         overflow: hidden;
@@ -311,7 +309,7 @@ label {
       font-size: 10px;
       display: -webkit-box;
       -webkit-line-clamp: 4;
-      -webkit-box-orient: vertical;  
+      -webkit-box-orient: vertical;
     }
     .card-author{
         font-weight: bold;
@@ -327,7 +325,7 @@ label {
       color: var(--text-color);
     }
     /* Add dark mode specific styles here */
-}  
+}
 @media only screen and (min-width:400px) and (max-width:490px){
 
       
@@ -347,7 +345,6 @@ label {
         object-fit: cover;
     }
     .card-title{
-        color: rgb(248, 65, 14);
         letter-spacing: 1px;
         font-size: 13px;
         font-weight: bold;
@@ -355,7 +352,7 @@ label {
         text-overflow: ellipsis;
         display: -webkit-box;
         -webkit-line-clamp: 2;
-        -webkit-box-orient: vertical;  
+        -webkit-box-orient: vertical;
         max-height: 80px; /* 4 lines at 20px per line */
         white-space: normal;
         overflow: hidden;
@@ -372,7 +369,7 @@ label {
       font-size: 10px;
       display: -webkit-box;
       -webkit-line-clamp: 4;
-      -webkit-box-orient: vertical;  
+      -webkit-box-orient: vertical;
     }
     .card-author{
         font-weight: bold;
@@ -382,3 +379,4 @@ label {
         font-size: 8px;
     }
 }
+

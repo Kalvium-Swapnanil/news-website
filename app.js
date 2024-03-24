@@ -78,7 +78,7 @@ function getNews(newsCategoryName) {
         let news = `<div class="newsCard">
         <div class="imageWrapper">
         <img src="${data[key].imageUrl}"
-        class="thumnail" alt="Image">
+        class="thumbnail" alt="Image">
             </div>
             <div class="card-body">
             <div class="card-date">${data[key].date}</div>
@@ -87,7 +87,6 @@ function getNews(newsCategoryName) {
                                 <p class="card-text">${data[key].content}</p>
                                 <a target="_blank" href="${data[key].readMoreUrl}" class="btn btn-primary">Read more..</a>
                             </div>
-                           
                         </div>`;
         newsHTML += news;
       }
