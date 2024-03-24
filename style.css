@@ -27,23 +27,6 @@
     margin: 12px auto;
 }
 
-a.twitter-signin-button {
-  background-color: #1DA1F2;
-  color: #fff;
-  padding: 10px 20px;
-  font-size: 16px;
-  border: none;
-  border-radius: 5px;
-  text-decoration: none;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-a.twitter-signin-button:hover {
-  background-color: #0e71a5;
-}
-
-
 .card-body{
     padding: 1rem;
 }

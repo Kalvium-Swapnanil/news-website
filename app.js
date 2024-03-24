@@ -1,14 +1,6 @@
 const darkModeToggle = document.getElementById("darkModeToggle");
 const body = document.body;
 
-function twitterSignIn() {
-  // Open Twitter OAuth authentication popup
-  window.open("YZEpPTnZnLXlWNDMzSkdyaWhlcDM6MTpjaQ", "Twitter Sign In", "width=600,height=400");
-}
-
-
-
-
 // Function to toggle dark mode based on user preference
 function toggleDarkMode() {
   if (darkModeToggle.checked) {
