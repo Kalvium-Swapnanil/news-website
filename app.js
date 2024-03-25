@@ -9,7 +9,6 @@ function toggleDarkMode() {
     body.classList.remove("dark-mode");
   }
 }
-
 // Event listener for dark mode toggle button
 darkModeToggle.addEventListener("change", toggleDarkMode);
 
