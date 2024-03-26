@@ -73,12 +73,12 @@
 }
 
 #newsBox {
-    display: flex;
-    justify-content: center;
-align-items: center;
-    gap: 2rem;
-    flex-wrap: wrap;
-
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  height: max-content;
 }
 
 .newsCard {
@@ -378,3 +378,13 @@ label {
     }
 }
 
+.news{
+  display: flex;
+  justify-content: space-around;
+}
+
+.eapps-twitter-feed {
+  margin-left: 50px;
+  display: block;
+  width: 100%;
+}
